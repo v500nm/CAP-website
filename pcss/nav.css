@@ -1,0 +1,8 @@
+.navImage {
+    display: block;
+    margin: auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
