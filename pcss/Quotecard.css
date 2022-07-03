@@ -1,0 +1,17 @@
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.blockquote-custom-icon {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+}
