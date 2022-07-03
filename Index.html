@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAP Home</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./pcss/cards.css">
+    <link rel="stylesheet" href="./pcss/Quotecard.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script src="jquery.min.js" defer></script>
+
+    <script defer src="./js/bootstrap.js"></script>
+    <script src="./pjs/carousal.js" defer></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <a href="Index.html"><img src="./images/CAPlogo.png" class="navImage" height="80px"></a>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" aria-current="page" href="./user/AboutCap.html">About CAP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./user/whatwedo.html">What We Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./user/freedomFarm.html">Freedom Farm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./user/ambulance.html">Ambulance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./user/howcanyouhelp.html">How Can You Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./user/updates.html">Updates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <br>
+        </header>
+
+        <main>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <!--carousal-->
+                        <div class="col-md-10 mx-auto">
+                            <div id="topCarousal" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active text-center">
+                                        <img src="./images/Carousal1.jpg" id="topCarousal" class="rounded">
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <img src="./images/Carousal2.jpg" id="topCarousal" class="rounded">
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <img src="./images/Carousal3.jpg" id="topCarousal" class="rounded">
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <img src="./images/Carousal4.jpg" id="topCarousal" class="rounded">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#topCarousal" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#topCarousal" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                            </div>
+                        </div>
+                        <div class="col-md-2" style="border: solid #dee2e6; padding: 5px;">
+                            <ol class="breadcrumb breadcrumb-bullet  mx-auto mb-2 mb-lg-0 flex-column" style="line-height: 200%;">
+                                <li class="breadcrumb-item" style="font-size: large;">This Page</li>
+                                <li class="breadcrumb-item">
+                                    <a href="#aboutCAP" class="text-uppercase" style="font-size: medium;">About Cap</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#Ambulance" class="text-uppercase" style="font-size: medium;">Ambulance</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#whatweDo" class="text-uppercase" style="font-size: medium;">what We Do</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#freedomFarm" class="text-uppercase" style="font-size: medium;">Freedom Farm</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#HowCanYouHelp" class="text-uppercase" style="font-size: medium;">How can you help</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#updates" class="text-uppercase" style="font-size: medium;">Updates</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#contact" class="text-uppercase" style="font-size: medium;">Contact us</a>
+                                </li>
+
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <br>
+                <hr>
+
+                <!--About CAP-->
+
+                <div class="col-lg-10 mx-auto">
+
+                    <!-- CUSTOM BLOCKQUOTE -->
+                    <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded" id="aboutCAP">
+                        <div class="blockquote-custom-icon bg-info shadow-sm" id="about"><a href="./user/AboutCap.html" style="color: aliceblue;font-weight: 500;"><i>About CAP</i></a></div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="mb-0 mt-2 font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum voluptas, facere a enim provident. Iure quia nemo iusto nobis, laboriosam illum autem exercitationem mollitia assumenda quam, deleniti, architecto
+                                    enim!
+                                    <a href="./user/AboutCap.html" class="text-info">Learn more</a>."</p>
+                            </div>
+                            <div class="col-md-3"><img src="./images/Carousal1.jpg" alt=""></div>
+                        </div>
+
+                    </blockquote>
+                </div>
+                <!--Ambulance-->
+                <div class="col-lg-10 mx-auto">
+                    <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded" id="Ambulance">
+                        <div class="blockquote-custom-icon bg-info shadow-sm" id="about"><a href="./user/ambulance.html" style="color: aliceblue;font-weight: 500;"><i>Ambulance</i></a></div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="mb-0 mt-2 font-italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad saepe recusandae consectetur. Aliquam ab nam beatae nemo exercitationem atque alias voluptas saepe distinctio, eos cum, sit maxime obcaecati iste. Quas.
+                                    <a href="./user/ambulance.html" class="text-info">Learn more</a>."</p>
+                            </div>
+                            <div class="col-md-3"><img src="./images/Carousal1.jpg" alt=""></div>
+                        </div>
+
+                    </blockquote>
+                </div>
+                <hr>
+
+                <!--What We Do Cards-->
+
+
+                <div class="container">
+                    <h2 style="text-align: center; margin-bottom: 10px; text-decoration: underline;"><a href="./user/whatwedo.html">What we Do</a></h2>
+                    <div id="whatweDo" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#whatweDo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#whatweDo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#whatweDo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Rescue </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Rehab </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Legal </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Relief </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Education </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Shelter </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Research </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Projects </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Training </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#whatweDo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#whatweDo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+                <hr>
+                <!--Freedom Farm-->
+                <div class="col-lg-10 mx-auto">
+                    <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded" id="freedomFarm">
+                        <div class="blockquote-custom-icon bg-info shadow-sm" id="about"><a href="./user/freedomFarm.html" style="color: aliceblue;font-weight: 500;">Freedom Farm</a></div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="mb-0 mt-2 font-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore accusamus perferendis vel iure eligendi obcaecati reiciendis voluptate possimus explicabo excepturi dolores id, consequatur dignissimos? Earum, quidem? Commodo
+
+                                    <a href="./user/freedomFarm.html" class="text-info">Learn more</a>."</p>
+                            </div>
+                            <div class="col-md-3"><img src="./images/Carousal1.jpg" alt=""></div>
+                        </div>
+                    </blockquote>
+                </div>
+                <hr>
+                <!--How can you help-->
+
+                <div class="container">
+                    <h2 style="text-align: center; margin-bottom: 10px; text-decoration: underline;"><a href="./user/howcanyouhelp.html">How can You help?</a></h2>
+                    <div id="HowCanYouHelp" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#HowCanYouHelp" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#HowCanYouHelp" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#HowCanYouHelp" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#HowCanYouHelp" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Get Involved </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Sponser Rescue </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Shelter Dog </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Shelter Cat </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Shelter Cow </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Shelter Chicken</h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Shelter Pig </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> ABC </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Amazon Wishlist </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Merchandise </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="card profile-card-5">
+                                            <div class="card-img-block">
+                                                <img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <a href="">
+                                                    <h5 class="card-title"> Gift a Donation </h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#HowCanYouHelp" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#HowCanYouHelp" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <hr>
+                <!--updates-->
+                <div class="container">
+                    <h2 style="text-align: center; margin-bottom: 10px; text-decoration: underline;" id="updates"><a href="./user/updates.html"> Updates </a></h2>
+                    <div class="row">
+                        <div class=" col-md-3 mt-4 ">
+                            <div class="card profile-card-5 ">
+                                <div class="card-img-block ">
+                                    <img class="card-img-top " src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c " alt="Card image cap ">
+                                </div>
+                                <div class="card-body pt-0 ">
+                                    <a href="#">
+                                        <h5 class="card-title ">Animal Stores</h5>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 ">
+                            <div class="card profile-card-5 ">
+                                <div class="card-img-block ">
+                                    <img class="card-img-top " src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c " alt="Card image cap ">
+                                </div>
+                                <div class="card-body pt-0 ">
+                                    <a href="#">
+                                        <h5 class="card-title "> Media Center </h5>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mt-4 ">
+                            <div class="card profile-card-5 ">
+                                <div class="card-img-block ">
+                                    <img class="card-img-top " src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c " alt="Card image cap ">
+                                </div>
+                                <div class="card-body pt-0 ">
+                                    <a href="#">
+                                        <h5 class="card-title "> Blog </h5>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 ">
+                            <div class="card profile-card-5 ">
+                                <div class="card-img-block ">
+                                    <img class="card-img-top " src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c " alt="Card image cap ">
+                                </div>
+                                <div class="card-body pt-0 ">
+                                    <a href="#">
+                                        <h5 class="card-title "> Gallery </h5>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <hr>
+        <!--footer-->
+        <footer class="w-100 py-4 flex-shrink-0" id="contact">
+            <div class="container py-4">
+                <div class="row gy-4 gx-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="h1 text-white">Contact Us</h5><br>
+                        <ul class="list-unstyled text-muted ">
+                            <p class="small text-muted mb-0 ">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
+                            <li class="d-flex mx-auto">
+                                <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
+                                <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+                                <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <h5 class="text-white mb-3 ">Contacts </h5>
+                        <ul class="list-unstyled text-muted ">
+                            <li>
+                                <a href="https://g.page/freedom-farm-citizens-for-anima?share "><b style="color: white; ">Address: </b> Unnathi Woods Rd, Vijay Park, Kasarvadavali, Thane West, Thane, Maharashtra 400615</a>
+
+                            </li>
+                            <li>
+                                <a href="# " style="word-wrap: break-word;">
+                                    <b style="color: white;">Email: </b> capfoundationmumbai@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=9757439100 ">
+                                    <b style="color: white; ">Contact: </b>+91 97574 39100</a>
+                            </li>
+                            <li>
+                                <a href="#"></a>Press & Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-3">Helps</h5>
+                        <ul class="list-unstyled text-muted ">
+                            <li><a href="#"><b style="color: white; ">Guideline: </b> </a></li><br>
+                            <li><a href="#"><b style="color: white; ">Helpline: </b> </a></li><br>
+                            <li><a href="#"><b style="color: white; ">Response: </b> </a></li><br>
+                            <li>
+                                <a href="#"><b style="color: white; ">FAQ</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-3">
+                            Quick Links
+                        </h5>
+                        <ul class="list-unstyled text-muted ">
+                            <li><a href="./user/AboutCap.html"><b style="color: white; ">About CAP</b> </a></li>
+                            <li><a href="./user/whatwedo.html"><b style="color: white; ">What We Do</b> </a></li>
+                            <li><a href="./user/freedomFarm.html"><b style="color: white; ">Freedom Farm</b> </a></li>
+                            <li><a href="./user/ambulance.html"><b style="color: white; ">Ambulance</b></a></li>
+                            <li><a href="./user/howcanyouhelp.html"><b style="color: white; ">How can you help</b></a></li>
+                            <li><a href="./user/updates.html"><b style="color: white; ">updates</b></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
