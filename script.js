@@ -1,7 +1,7 @@
 // script Navbar Automation
 
 const navbar = `
-<a href="../Index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
+<a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
