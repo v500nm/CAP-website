@@ -58,3 +58,9 @@ footer {
 
 
 /*aboutCap flex*/
+
+footer a,
+footer p {
+    color: #fff;
+    font-weight: 400;
+}
