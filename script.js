@@ -17,7 +17,7 @@ const navbar = `
                     <a class="nav-link active px-4" href="./whatwedo.html">What We Do</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active px-4" href="./freedomFarm.html">Freedom Farm</a>
+                    <a class="nav-link active px-4" href="../freedomFarm/homeFarm.html">Freedom Farm</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active px-4" href="./ambulance.html">Ambulance</a>
@@ -60,15 +60,15 @@ const Footer = `
                         <h5 class="text-white mb-3 ">Contacts </h5>
                         <ul class="list-unstyled text-muted ">
                             <li>
-                                <a href="https://g.page/freedom-farm-citizens-for-anima?share "><b style="color: white; ">Address: </b> Unnathi Woods Rd, Vijay Park, Kasarvadavali, Thane West, Thane, Maharashtra 400615</a>
+                                <a href="https://g.page/freedom-farm-citizens-for-anima?share"><b style="color: white; ">Address: </b> Unnathi Woods Rd, Vijay Park, Kasarvadavali, Thane West, Thane, Maharashtra 400615</a>
 
                             </li>
                             <li>
                                 <a href="# " style="word-wrap: break-word;">
-                                    <b style="color: white;">Email: </b> capfoundationmumbai@gmail.com</a>
+                                    <b style="color: white;">Email: </b> mailto:capfoundationmumbai@gmail.com</a>
                             </li>
                             <li>
-                                <a href="https://api.whatsapp.com/send?phone=9757439100 ">
+                                <a href="https://api.whatsapp.com/send?phone=9757439100">
                                     <b style="color: white; ">Contact: </b>+91 97574 39100</a>
                             </li>
                             <li>
