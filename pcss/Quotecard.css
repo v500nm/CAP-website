@@ -5,13 +5,19 @@
 }
 
 .blockquote-custom-icon {
-    width: 8rem;
-    height: 3rem;
+    line-height: 140%;
+    width: 12rem;
+    height: 4rem;
+    font-size: 20px;
     border-radius: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: -25px;
-    left: 50px;
+    left: 30rem;
+}
+
+.cardButton {
+    border: none;
 }

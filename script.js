@@ -1,7 +1,14 @@
 // script Navbar Automation
 
 const navbar = `
-<a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
+<div class="top row container">
+    <div class="topImg col-lg-4 mx-4">
+        <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
+    </div>
+    <div class="col-lg-6 py-4">
+       <h1 class="title">Citizen for Animal Protection</h1>
+    </div>
+</div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -27,6 +34,9 @@ const navbar = `
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active px-4" href="./updates.html">Updates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active px-4" href="./Merchandise.html">Merchandise</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active px-4" href="#contact">Contact</a>
