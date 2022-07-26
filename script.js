@@ -58,7 +58,7 @@ const Footer = `
                     <div class="col-lg-3 col-md-6">
                         <h5 class="h1 text-white">Contact Us</h5><br>
                         <ul class="list-unstyled text-muted ">
-                            <p class="small text-muted mb-0 ">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
+                            <p class="small text-muted mb-0" style="color:white;">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
                             <li class="d-flex mx-auto">
                                 <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
                                 <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
