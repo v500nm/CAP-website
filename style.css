@@ -47,7 +47,23 @@ footer {
 
 
 /*carousal*/
+.carousel-control-prev-icon{
+    background-color: rgb(19, 168, 222);
+    /* margin: 12px 12px; */
+    margin-left: -199px;
+    width: 2rem;
+    height: 12rem;
+    justify-content: center;
+}
 
+.carousel-control-next-icon{
+    background-color: rgb(19, 168, 222);
+    /* margin: 12px 12px; */
+    margin-right: -199px;
+    width: 2rem;
+    height: 12rem;
+    justify-content: center;
+}
 #topCarousal {
     width: 100%;
     max-height: 20rem;
