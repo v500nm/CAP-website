@@ -77,3 +77,12 @@ footer p {
     color: #fff;
     font-weight: 400;
 }
+/* back to top */
+.float-end{
+    height: 4rem;
+    width: 4rem;
+    margin: 2rem;
+}
+.bTopback{
+    background-color: white;
+}
