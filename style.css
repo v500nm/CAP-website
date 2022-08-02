@@ -4,7 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(231, 144, 221);
 }
-
+nav{
+    margin: 0;
+}
 
 /* nav and image */
 
@@ -49,18 +51,18 @@ footer {
 
 /*carousal*/
 .carousel-control-prev-icon{
-    background-color: rgb(19, 168, 222);
+
     /* margin: 12px 12px; */
-    margin-left: -199px;
+    margin-left: -100px;
     width: 2rem;
     height: 12rem;
     justify-content: center;
 }
 
 .carousel-control-next-icon{
-    background-color: rgb(19, 168, 222);
+
     /* margin: 12px 12px; */
-    margin-right: -199px;
+    margin-right: -100px;
     width: 2rem;
     height: 12rem;
     justify-content: center;
