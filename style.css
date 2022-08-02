@@ -2,11 +2,11 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 255, 174);
+    background-color: rgb(231, 144, 221);
 }
 
 
-/* nav nad image */
+/* nav and image */
 
 a:hover {
     text-decoration: underline;
@@ -130,3 +130,9 @@ footer p {
 .counter-box.colored .counter {
 	color: #fff
 }
+.topRow{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
