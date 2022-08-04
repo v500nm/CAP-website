@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;padding: 0;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(231, 144, 221);
+    padding: 0 !important;
 }
-
-nav{
-    margin: 0;
-}
-
-
 /* nav and image */
 a:hover {
     text-decoration: underline;
 }
-header{width: 100%;
-    left: 0;
+header{
+    width: 100%;
+}
+footer{
+    width: 100%;
 }
 /* footer */
 
@@ -54,7 +55,7 @@ footer {
 .carousel-control-prev-icon{
 
     /* margin: 12px 12px; */
-    margin-left: -100px;
+    margin-left: -80px;
     width: 2rem;
     height: 12rem;
     justify-content: center;
@@ -63,7 +64,7 @@ footer {
 .carousel-control-next-icon{
 
     /* margin: 12px 12px; */
-    margin-right: -100px;
+    margin-right: -80px;
     width: 2rem;
     height: 12rem;
     justify-content: center;
