@@ -98,7 +98,8 @@ footer p {
 	display: block;
 	background: #f6f6f6;
 	padding: 40px 20px 37px;
-	text-align: center
+	text-align: center;
+    border-radius: 5%;
 }
 
 .counter-box p {
