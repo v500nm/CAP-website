@@ -19,7 +19,7 @@ footer{
 
 a:hover,
 a:focus {
-    padding: 8px;
+    padding: 2px;
 }
 
 a {
@@ -40,14 +40,6 @@ a {
 footer {
     background: #212529;
 }
-
-
-/* Page guide */
-
-.breadcrumb-bullet .breadcrumb-item+.breadcrumb-item::before {
-    content: '•';
-}
-
 
 /*carousal*/
 .carousel-control-prev-icon{
