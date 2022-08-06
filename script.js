@@ -1,54 +1,54 @@
 // script Navbar Automation
 
 const navbar = `
-<div class="top row container">
-    <div class="topImg col-lg-4 mx-4">
-        <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
-    </div>
-    <div class="col-lg-6 py-4">
-       <h1 class="title">Citizen for Animal Protection</h1>
-    </div>
-</div>
-
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
-            <li class="nav-item">
-                                <a class="nav-link active px-4" aria-current="page" href="../index.html">Home</a>
+<div class="topRow">
+              <div class="topImg">
+                <a href="index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
+              </div>
+              <div class="text-center">
+                <h1 class="title word-break"><strong>Citizen for Animal Protection</strong></h1>
+              </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+             
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" aria-current="page" href="#">Home</a>
                             </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" aria-current="page" href="./AboutCap.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="./whatwedo.html">What We Do</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="../freedomFarm/homeFarm.html" target="_blank">Freedom Farm</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="./ambulance.html">Ambulance</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="./howcanyouhelp.html">How Can You Help</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="./updates.html">Updates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="./Merchandise.html" target="_blank">Merchandise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active px-4" href="#contact">Contact</a>
-                </li>
-            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" aria-current="page" href="./AboutCap.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./whatwedo.html">What We Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="../freedomFarm/homeFarm.html" target="_blank">Freedom Farm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4"  href="./ambulance.html">Ambulance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./howcanyouhelp.html">How Can You Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./updates.html">Updates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="./Merchandise.html" target="_blank">Merchandise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active px-4" href="#contact">Contact</a>
+                            </li>
+                        </ul>
 
-        </div>
-    </div>
-</nav>
+                    </div>
+               
+              </nav>
+            <br>
 `
 document.querySelector(".Nav").innerHTML = navbar
 
