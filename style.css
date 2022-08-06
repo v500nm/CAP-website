@@ -24,9 +24,7 @@ footer {
 }
 
 /* footer */
-.container-fluid{
-padding:0 !important;
-}
+
 a:hover,
 a:focus {
     padding: 8px;
