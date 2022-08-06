@@ -25,57 +25,103 @@
         
     </header>
     <hr>
-    <h1>hello</h1>
     <!-- carousel -->
-    <div class="carousel">
-
-        <div id="topCarousal" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active text-center">
-                    <img src="../images/Carousal1.jpg" class="rounded">
-                </div>
-                <div class="carousel-item text-center">
-                    <img src="../images/Carousal2.jpg" class="rounded">
-                </div>
-                <div class="carousel-item text-center">
-                    <img src="../images/Carousal3.jpg" class="rounded">
-                </div>
-                <div class="carousel-item text-center">
-                    <img src="../images/Carousal4.jpg" class="rounded">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#topCarousal" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#topCarousal" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+    <div id="topCarousal" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="5" aria-label="Slide 0"></button>
         </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+                <img src="../images/Carousal1.jpg" id="topCarousal" class="rounded">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../images/Carousal2.jpg" id="topCarousal" class="rounded">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../images/Carousal3.jpg" id="topCarousal" class="rounded">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../images/Carousal4.jpg" id="topCarousal" class="rounded">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../images/Carousal5.JPG" id="topCarousal" class="rounded">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="../images/Carousal6.JPG" id="topCarousal" class="rounded">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#topCarousal" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#topCarousal" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
     </div>
     </div>
     <hr>
     <div class="about">
-        <div class="aboutheader">
-            <h3>Freedom Farm </h3>
-            <h3> Citizens for Animal Protection Foundation
-            </h3>
+        <div class="aboutheader" >
+            <h3 style="text-align: center;">Freedom Farm </h3>
+            <article class="postcard light blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="../images/CAPlogo.png" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title blue text-black"><a href="#">About Us!</a></h1>
+                
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt text-black">Citizens for Animal Protection (C.A.P) Foundation is a registered not-for-profit organization (MAH/319/2020) based in Thane, Mumbai, Maharashtra,India with an aim to work towards expanding the circle of compassion towards animals. We run Thane city’s first animal shelter cum educational center which gives shelter to all kinds of animals and promotes peaceful coexistence among all kinds of species including humans.</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item play blue text-black">
+                            <a href="../user/AboutCap.html">Learn More...</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
         </div>
         <br>
-        <h4 style="text-decoration: underline;">About the organization </h4>
-        <p> Citizens for Animal Protection Foundation is a Registered NGO (Registration Number – MAH/319/2020) based in Thane, Mumbai, Maharashtra. </p>
-        <p> Our aim is to work towards expanding the circle of compassion towards animals. We believe that everyone has a right to live in harmony, peace and be treated with compassion. </p>
+        <article class="postcard light blue">
+            <a class="postcard__img_link" href="#">
+                <img class="postcard__img" src="../images/CAPlogo.png" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+                <h1 class="postcard__title blue text-black"><a href="#">About the organization</a></h1>
+            
+                <div class="postcard__bar"></div>
+                <div class="postcard__preview-txt text-black">Citizens for Animal Protection Foundation is a Registered NGO (Registration Number – MAH/319/2020) based in Thane, Mumbai, Maharashtra.Our aim is to work towards expanding the circle of compassion towards animals. We believe that everyone has a right to live in harmony, peace and be treated with compassion. </div>
+                <ul class="postcard__tagbox">
+                    <li class="tag__item play blue text-black">
+                        <a href="../user/AboutCap.html">Learn More...</a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        
         <br>
-        <h4 style="text-decoration: underline;">Our Work </h4>
-        <p>We work towards various avenues of animal welfare and try to reach to as many animals as possible. Here is a brief about each of them; </p>
-        <br>
+        <article class="postcard light blue">
+            <a class="postcard__img_link" href="#">
+                <img class="postcard__img" src="../images/CAPlogo.png" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+                <h1 class="postcard__title blue text-black"><a href="#">Our Work</a></h1>
+            
+                <div class="postcard__bar"></div>
+                <div class="postcard__preview-txt text-black">We work towards various avenues of animal welfare and try to reach to as many animals as possible. Here is a brief about each of them; </div>
+                <ul class="postcard__tagbox">
+                    <li class="tag__item play blue text-black">
+                        <a href="../user/AboutCap.html">Learn More...</a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+         <br>
         <h4>1. Rescue and Rehabilitation</h4>
         <p>As an animal welfare organization, we attend various calls of injured and abandoned animals across the city on an everyday basis. Depending on the situation and severity of the case, we either get the ones who are injured treated or guide the
             caretaker of the animal on how to take care. After an assessment on their quality of life, we rehabilitate them by either releasing them back in their natural habitat or by finding a permanent home for them through adoption. </p>
