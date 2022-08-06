@@ -5,11 +5,10 @@ body {
     /* background-color: rgb(231, 144, 221); */
     background-color: #abe9cd;
 background-image: linear-gradient(315deg, #d585f7 0%, #95f7d6 90%);
-
-
+}
+.container-fluid{
     padding: 0 !important;
 }
-
 /* nav and image */
 a:hover {
     text-decoration: underline;
