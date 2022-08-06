@@ -38,7 +38,7 @@ const navbar = `
                                 <a class="nav-link active px-4" href="./updates.html">Updates</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active px-4" href="./Merchandise.html" target="_blank">Merchandise</a>
+                                <a class="nav-link active px-4" href="https://www.franklywearing.com/creator/cap-mumbai" target="_blank">Merchandise</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active px-4" href="#contact">Contact</a>
