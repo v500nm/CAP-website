@@ -2,24 +2,32 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(231, 144, 221);
+    /* background-color: rgb(231, 144, 221); */
+    background-color: #abe9cd;
+background-image: linear-gradient(315deg, #d585f7 0%, #95f7d6 90%);
+
+
     padding: 0 !important;
 }
+
 /* nav and image */
 a:hover {
     text-decoration: underline;
 }
-header{
+
+header {
     width: 100%;
 }
-footer{
+
+footer {
     width: 100%;
 }
+
 /* footer */
 
 a:hover,
 a:focus {
-    padding: 2px;
+    padding: 8px;
 }
 
 a {
@@ -38,11 +46,22 @@ a {
 }
 
 footer {
-    background: #212529;
+    /* background: #212529; */
+    background-color: #1e1d1d;
+    color: #8693ab;
+
+}
+/* #8693ab  color for text*/ 
+
+/* Page guide */
+
+.breadcrumb-bullet .breadcrumb-item+.breadcrumb-item::before {
+    content: '•';
 }
 
+
 /*carousal*/
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
 
     /* margin: 12px 12px; */
     margin-left: -80px;
@@ -51,7 +70,7 @@ footer {
     justify-content: center;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
 
     /* margin: 12px 12px; */
     margin-right: -80px;
@@ -59,6 +78,7 @@ footer {
     height: 12rem;
     justify-content: center;
 }
+
 #topCarousal {
     width: 100%;
     max-height: 20rem;
@@ -72,63 +92,72 @@ footer p {
     color: #fff;
     font-weight: 400;
 }
+
 /* back to top */
 
-.btt{
-    background-color:  rgb(19, 168, 222);
+.btt {
+    background-color: rgb(19, 168, 222);
     padding: 1rem;
 }
-.btt:hover{
+
+.btt:hover {
     color: white;
 }
+
 /* counter */
-.container-counter{
-    margin-top:10px;
+.container-counter {
+    margin-top: 10px;
 }
 
 .counter-box {
-	display: block;
-	background: #f6f6f6;
-	padding: 40px 20px 37px;
-	text-align: center;
+    display: block;
+    background: #f6f6f6;
+    padding: 40px 20px 37px;
+    text-align: center;
     border-radius: 5%;
 }
 
 .counter-box p {
-	margin: 5px 0 0;
-	padding: 0;
-	color: #909090;
-	font-size: 18px;
-	font-weight: 500
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500
 }
 
 .counter-box i {
-	font-size: 60px;
-	margin: 0 0 15px;
-	color: #d2d2d2
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2
 }
 
-.counter { 
-	display: block;
-	font-size: 32px;
-	font-weight: 700;
-	color: #666;
-	line-height: 28px
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
 }
 
 .counter-box.colored {
-      background: #3acf87;
+    background: #3acf87;
 }
 
 .counter-box.colored p,
 .counter-box.colored i,
 .counter-box.colored .counter {
-	color: #fff
+    color: #fff
 }
-.topRow{
+
+.topRow {
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
-   
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
