@@ -3,13 +3,13 @@
 const navbar = `
 <div class="topRow">
               <div class="topImg">
-                <a href="index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
+                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
               </div>
               <div class="text-center">
                 <h1 class="title word-break"><strong>Citizen for Animal Protection</strong></h1>
               </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90b7c7;">
              
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
