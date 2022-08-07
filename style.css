@@ -116,6 +116,7 @@ footer p {
 }
 
 .counter-box {
+    width: 100%;
     display: block;
     background: #f6f6f6;
     padding: 40px 20px 37px;
