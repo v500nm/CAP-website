@@ -23,7 +23,7 @@ const navbar = `
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link active px-4" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active px-4" aria-current="page" href="../index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active px-4" aria-current="page" href="./AboutCap.html">About Us</a>

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./pcss/Quotecard.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="font-awesome.min.css">
+    <script src="./script.js" defer></script>
     <script src="./js/bootstrap.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./pjs/carousal.js" ></script>
@@ -23,7 +24,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 </head>
 
-<body class="container-fluid">
+<body onload="preLoad()">
+  <div id="loading"></div>
+  <div class="container-fluid">
   
         <header>
             <div class="topRow">
@@ -246,7 +249,6 @@
                               We are working towards creating a sustainable structure in collaboration with an organization called  ‘MEE’ from the environment perceptive. 
                               </div>
                             <ul class="postcard__tagbox">
-                                
                                 <li class="tag__item play blue  text-black">
                                     <a href="./freedomFarm/homeFarm.html">Learn More...</a>
                                 </li>
@@ -522,6 +524,7 @@
                 </div>
             </div>
         </footer>
+      </div>
 </body>
 
 </html>
