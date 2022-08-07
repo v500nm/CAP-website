@@ -60,7 +60,7 @@ const Footer = `
                 <div class="row gy-4 gx-5">
                     <div class="col-lg-3 col-md-6">
                         <h5 class="h1 text-white">Contact Us</h5><br>
-                        <ul class="list-unstyled text-muted ">
+                        <ul class="list-unstyled">
                             <p class="small  text-white mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
                             <li class="d-flex mx-auto">
                                 <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
@@ -71,7 +71,7 @@ const Footer = `
                     </div>
                     <div class="col-lg-3 col-md-6 ">
                         <h5 class="text-white mb-3 ">Contacts </h5>
-                        <ul class="list-unstyled text-muted ">
+                        <ul class="list-unstyled">
                             <li>
                                 <a href="https://g.page/freedom-farm-citizens-for-anima?share"><b style="color: white; ">Address: </b> Unnathi Woods Rd, Vijay Park, Kasarvadavali, Thane West, Thane, Maharashtra 400615</a>
 
@@ -91,7 +91,7 @@ const Footer = `
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-3">Helps</h5>
-                        <ul class="list-unstyled text-muted ">
+                        <ul class="list-unstyled">
                             <li><a href="#"><b style="color: white; ">Guideline: </b> </a></li><br>
                             <li><a href="#"><b style="color: white; ">Helpline: </b> </a></li><br>
                             <li><a href="#"><b style="color: white; ">Response: </b> </a></li><br>

@@ -19,16 +19,16 @@ const fNav=`
                   <a class="nav-link active px-4" aria-current="page" href="./homeFarm.html">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4" aria-current="page" href="./educationalCenter.html">About</a>
+                  <a class="nav-link active px-4" aria-current="page" href="./aboutFarm.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4" href="./firstAnimalShelter.html">Plan A Visit</a>
+                  <a class="nav-link active px-4" href="./planFarm.html">Plan A Visit</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4" href="./largeAnimalSection.html">Event</a>
+                  <a class="nav-link active px-4" href="./eventFarm.html">Event</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4"  href="./sustainableShelter.html">Contact us</a>
+                  <a class="nav-link active px-4"  href="#">Contact us</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link active px-4"  href="../index.html" target="_blank">CAP Home</a>
@@ -50,8 +50,8 @@ const fFooter=`
 <div class="row gy-4 gx-6">
     <div class="col-lg-3 col-md-6">
         <h5 class="h1 text-white">Contact Us</h5><br>
-        <ul class="list-unstyled text-muted ">
-            <p class="text-muted mb-0 text-white">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
+        <ul class="list-unstyled">
+            <p class=" mb-0 text-white">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
             <li class="d-flex mx-auto">
                 <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
                 <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
@@ -62,7 +62,7 @@ const fFooter=`
     </div>
     <div class="col-lg-3 col-md-6 ">
         <h5 class="text-white mb-3 ">Contacts </h5>
-        <ul class="list-unstyled text-muted ">
+        <ul class="list-unstyled">
             <li>
                 <a href="https://g.page/freedom-farm-citizens-for-anima?share "><b style="color: white; ">Address: </b> Unnathi Woods Rd, Vijay Park, Kasarvadavali, Thane West, Thane, Maharashtra 400615</a>
 
