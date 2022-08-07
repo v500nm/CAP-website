@@ -1,8 +1,14 @@
+//loader
+const preLoader=document.querySelector("#loading");
+function preLoad(){
+    preLoader.style.display='none';
+}
+
 //freedom farm navbar
 const fNav=`
 <div class="topRow">
 <div class="topImg ">
-  <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
+  <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
 </div>
 <div class="text-center">
   <h1 class="title word-break"><strong>Citizen for Animal Protection</strong></h1>
@@ -28,7 +34,7 @@ const fNav=`
                   <a class="nav-link active px-4" href="./eventFarm.html">Event</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4"  href="#">Contact us</a>
+                  <a class="nav-link active px-4"  href="#contact">Contact us</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link active px-4"  href="../index.html" target="_blank">CAP Home</a>

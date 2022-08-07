@@ -19,13 +19,14 @@
  
 </head>
 
-<body>
-    <div class="container-fluid">
+<body onload="preLoad()">
+    <div id="loading"></div>
     <header class="fNav">
         
     </header>
     <hr>
-    <!-- carousel -->
+    <main class="container">
+        <!-- carousel -->
     <div id="topCarousal" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -130,13 +131,13 @@
             </article>
         </div>
         <br>
-        
+    </main>
     <br>
      <!--footer-->
      <footer class="py-4 flex-shrink-0 fFooter" id="contact">
         
     </footer>
-    </div>
+    
 </body>
 
 </html>

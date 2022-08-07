@@ -1,9 +1,15 @@
-// script Navbar Automation
+//loader
+const preLoader=document.querySelector("#loading");
+function preLoad(){
+    preLoader.style.display='none';
+}
 
+
+// script Navbar Automation
 const navbar = `
 <div class="topRow">
               <div class="topImg">
-                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
+                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="80px"></a>
               </div>
               <div class="text-center">
                 <h1 class="title word-break"><strong>Citizen for Animal Protection</strong></h1>
@@ -130,3 +136,4 @@ $(this).prop('Counter',0).animate({
 });
 
 });
+
