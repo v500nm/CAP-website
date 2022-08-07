@@ -16,25 +16,22 @@ const fNav=`
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
               <li class="nav-item">
-                  <a class="nav-link active px-4" aria-current="page" href="./homeFarm.html">Farm Home</a>
+                  <a class="nav-link active px-4" aria-current="page" href="./homeFarm.html">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4" aria-current="page" href="./educationalCenter.html">educational Center</a>
+                  <a class="nav-link active px-4" aria-current="page" href="./educationalCenter.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4" href="./firstAnimalShelter.html">First Animal Shelter</a>
+                  <a class="nav-link active px-4" href="./firstAnimalShelter.html">Plan A Visit</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4" href="./largeAnimalSection.html">Large Animal Section</a>
+                  <a class="nav-link active px-4" href="./largeAnimalSection.html">Event</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active px-4"  href="./sustainableShelter.html">Sustainable Shelter</a>
+                  <a class="nav-link active px-4"  href="./sustainableShelter.html">Contact us</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link active px-4"  href="../index.html" target="_blank">CAP Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active px-4"  href="#contact">Contact</a>
               </li>
              
           </ul>
