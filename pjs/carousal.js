@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#news-slider").owlCarousel({
-        items : 3,
+        items : 4,
         itemsDesktop:[1199,3],
         itemsDesktopSmall:[980,2],
         itemsMobile : [600,1],
@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $("#news-slider1").owlCarousel({
-        items : 3,
+        items : 4,
         itemsDesktop:[1199,3],
         itemsDesktopSmall:[980,2],
         itemsMobile : [600,1],
