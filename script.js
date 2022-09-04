@@ -12,8 +12,17 @@ const navbar = `
                 <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
               </div>
               <div class="text-center">
-                <h1 class="title word-break"><strong>Citizen for Animal Protection</strong></h1>
+                <h1 class="title word-break"><strong>Citizens for Animal Protection</strong></h1>
               </div>
+              <div class="SMandDonate">
+              <ul>
+                <li class="d-flex mx-auto">
+                  <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
+                  <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+                  <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
+                </li>
+              </ul>
+            </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90b7c7;">
              

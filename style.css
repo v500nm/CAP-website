@@ -7,15 +7,17 @@
     z-index: 9;
 }
 body {
+
     font-family: 'Roboto', sans-serif;
     /* background-color: rgb(231, 144, 221); */
-    background-color: #abe9cd;
-background-image: linear-gradient(315deg, #d585f7 0%, #95f7d6 90%);
+    /* background-color: #abe9cd;
+background-image: linear-gradient(315deg, #d585f7 0%, #95f7d6 90%); */
+background-color: white;
 }
-
 .container-fluid{
     padding: 0 !important;
 }
+
 /* nav and image */
 a:hover {
     text-decoration: underline;
@@ -33,7 +35,7 @@ footer {
 
 a:hover,
 a:focus {
-    padding: 8px;
+    padding: 2px;
 }
 
 a {
@@ -86,8 +88,8 @@ footer {
 }
 
 #topCarousal {
-    width: 100%;
-    max-height: 20rem;
+   height: 28rem;
+
 }
 
 
@@ -110,6 +112,24 @@ footer p {
     color: white;
 }
 
+.bttn{
+    padding: 0.6rem;
+    background-color: rgb(252, 255, 50);
+    text-decoration: none;
+    color: black;
+}
+.bttn:hover{
+    color: white;
+    padding: 0.6rem;
+    border: 2px solid white;
+
+}
+/* .SMandDonate{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+} */
 /* counter */
 .container-counter {
     margin-top: 10px;
@@ -159,8 +179,10 @@ footer p {
 .topRow {
     background-color: aliceblue;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    height: 8rem;
 }
 
 .alignleft {
