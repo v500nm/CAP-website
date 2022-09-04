@@ -110,6 +110,8 @@ footer p {
 
 .btt:hover {
     color: white;
+    padding: 1rem;
+
 }
 
 .bttn{
@@ -189,4 +191,20 @@ footer p {
     display: inline;
     float: left;
     margin-right: 1.5em;
+}
+/* readmore  */
+.readMore,.readMore1{
+    display: none;
+}
+
+.readMoreBtn,.readMoreBtn1{
+    color: grey;
+    font-size: 20px;
+}
+.readMoreBtn:hover,.readMoreBtn1:hover{
+    color: blue;
+    cursor: pointer;
+}
+.readMoreShow,.readMoreShow1{
+    display: inline;
 }

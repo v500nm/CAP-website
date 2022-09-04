@@ -9,20 +9,25 @@ function preLoad(){
 const navbar = `
 <div class="topRow">
               <div class="topImg">
-                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="100px"></a>
+                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="120px" width="200px"></a>
               </div>
               <div class="text-center">
                 <h1 class="title word-break"><strong>Citizens for Animal Protection</strong></h1>
               </div>
-              <div class="SMandDonate">
-              <ul>
-                <li class="d-flex mx-auto">
-                  <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
-                  <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
-                  <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
-                </li>
-              </ul>
-            </div>
+              <div class="SMandDonate row align-middle">
+                <div class="sm col-md-6">
+                  <ul>
+                    <li class="d-flex mx-auto">
+                      <a href="#"><img src="https://img.icons8.com/color/36/000000/facebook-new.png" /></a>
+                      <a href="#"><img src="https://img.icons8.com/fluency/36/000000/instagram-new.png" /></a>
+                      <a href="#"><img src="https://img.icons8.com/color/36/000000/whatsapp--v1.png" /></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="donate col-md-6">
+                  <a href="./user/howcanyouhelp.html" class="rounded mx-2 bttn">Donate</a>
+                </div>
+              </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90b7c7;">
              
@@ -133,16 +138,35 @@ document.querySelector(".Footer").innerHTML = Footer
 $(document).ready(function() {
 
     $('.counter').each(function () {
-$(this).prop('Counter',0).animate({
-    Counter: $(this).text()
-}, {
-    duration: 4000,
-    easing: 'swing',
-    step: function (now) {
-        $(this).text(Math.ceil(now));
-    }
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 8000,
+            easing: 'swing',
+            step: function (now) {
+               $(this).text(Math.ceil(now));
+            }
+        });
+    });
 });
-});
-
-});
-
+//About ReadMore
+const readMoreContainer=document.querySelector('.Asection');
+readMoreContainer.addEventListener('click',event=>{
+    const current=event.target;
+    const isReadMoreBtn= current.className.includes('readMoreBtn');
+    if(!isReadMoreBtn) return;
+    const currentText=event.target.parentNode.querySelector('.readMore');
+    currentText.classList.toggle('readMoreShow');
+    current.textContent= current.textContent.includes('Read More')?
+    "Read Less...":"Read More"    
+})
+const readMoreContainer1=document.querySelector('.Asection1');
+readMoreContainer1.addEventListener('click',event1=>{
+    const current1=event1.target;
+    const isReadMoreBtn1= current1.className.includes('readMoreBtn1');
+    if(!isReadMoreBtn1) return;
+    const currentText1=event1.target.parentNode.querySelector('.readMore1');
+    currentText1.classList.toggle('readMoreShow1');
+    current1.textContent= current1.textContent.includes('Read More')?
+    "Read Less...":"Read More"    
+})
