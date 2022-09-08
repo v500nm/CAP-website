@@ -63,7 +63,7 @@ const fFooter=`
                 <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
                 <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
             </li><br><br>
-            <a href="#" style="text-decoration: none;" class="rounded float-start btt">Back to top</a>
+            <a href="#topAgain" style="text-decoration: none;" class="rounded float-start btt">Back to top</a>
         </ul>
     </div>
     <div class="col-lg-3 col-md-6 ">
