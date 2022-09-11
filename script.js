@@ -171,3 +171,14 @@ readMoreContainer1.addEventListener('click',event1=>{
     current1.textContent= current1.textContent.includes('Read More')?
     "Read Less...":"Read More"    
 })
+//Ambulance
+const AmreadMoreContainer=document.querySelector('.Asection');
+AmreadMoreContainer.addEventListener('click',event=>{
+    const current=event.target;
+    const isReadMoreBtn= current.className.includes('readMoreBtn');
+    if(!isReadMoreBtn) return;
+    const currentText=event.target.parentNode.querySelector('.readMore');
+    currentText.classList.toggle('readMoreShow');
+    current.textContent= current.textContent.includes('Read More')?
+    "Read Less...":"Read More"  
+})
