@@ -9,7 +9,7 @@ function preLoad(){
 const navbar = `
 <div class="topRow">
               <div class="topImg">
-                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="120px" width="200px"></a>
+                <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="120px"></a>
               </div>
               <div class="text-center">
                 <h1 class="title word-break"><strong>Citizens for Animal Protection</strong></h1>
