@@ -116,9 +116,9 @@ footer p {
 
 .bttn{
     padding: 0.6rem;
-    background-color: rgb(252, 255, 50);
+    background-color: rgba(50, 224, 255, 0.458);
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .bttn:hover{
     color: white;
@@ -208,3 +208,45 @@ footer p {
 .readMoreShow,.readMoreShow1{
     display: inline;
 }
+/* Icon */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: linear-gradient(#3B5998, #1b7dd874);
+    color: white;
+  }
+  
+  .instagram {
+    background: linear-gradient(#d52fffc5, #d21bd88f) ;
+    color: white;
+  }
+  
+  .whatsapp {
+    background: linear-gradient(#3fff0fc7, #16c1698f);
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
