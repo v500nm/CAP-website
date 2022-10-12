@@ -106,6 +106,10 @@ const Footer = `
                                     <b style="color: white; ">Contact: </b>+91 97574 39100</a>
                             </li>
                             <li>
+                                <a href="">
+                                    <b style="color: white; ">Timing: </b>8am to 9pm</a>
+                            </li>
+                            <li>
                                 <a href="#"></a>Press & Media</a>
                             </li>
                         </ul>
@@ -117,7 +121,7 @@ const Footer = `
                             <li><a href="#"><b style="color: white; ">Helpline: </b> </a></li><br>
                             <li><a href="#"><b style="color: white; ">Response: </b> </a></li><br>
                             <li>
-                                <a href="#"><b style="color: white; ">FAQ</b></a>
+                                <a href="#"><b style="color: white; ">FAQ: </b></a>
                             </li>
                         </ul>
                     </div>
@@ -182,3 +186,5 @@ AmreadMoreContainer.addEventListener('click',event=>{
     current.textContent= current.textContent.includes('Read More')?
     "Read Less...":"Read More"  
 })
+
+
