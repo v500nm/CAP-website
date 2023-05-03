@@ -83,7 +83,7 @@ const Footer = `
                     <div class="col-lg-3 col-md-6">
                         <h5 class="h1 text-white">Contact Us</h5><br>
                         <ul class="list-unstyled">
-                            <p class="small  text-white mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://github.com/Swarup-hash/CAP-Website">Swarup_Hash</a></p> <br>
+                            <p class="small  text-white mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" target="_blank" href="https://github.com/v500nm">Adnan Mangaonkar</a></p> <br>
                             <br><br>
                                 <a href="#topAgain" style="text-decoration: none;" class="rounded float-start btt">Back to top</a>
                         </ul>
