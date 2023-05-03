@@ -4,6 +4,14 @@ function preLoad(){
     preLoader.style.display='none';
 }
 
+//Social media links
+const SocialMedia = `<div class="icon-bar">
+<a href="https://www.facebook.com/cap.mumbai " class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="https://www.instagram.com/cap.mumbai/?igshid=YmMyMTA2M2Y%3D" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+<a href="https://api.whatsapp.com/send?phone=9757439100" class="whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+<a href="https://twitter.com/capmumbai" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+</div>`
+document.querySelector(".socialmedia").innerHTML = SocialMedia
 
 // script Navbar Automation
 const navbar = `
@@ -12,20 +20,13 @@ const navbar = `
                 <a href="../index.html"><img src="../images/CAPlogo.png" class="navImage" height="120px"></a>
               </div>
               <div class="text-center">
-                <h1 class="title word-break"><strong>Citizens for Animal Protection</strong></h1>
+                <h2 class="title word-break"><strong>Citizens for Animal Protection</strong></h2>
               </div>
               <div class="SMandDonate row align-middle">
                 <div class="sm col-md-6">
-                  <ul>
-                    <li class="d-flex mx-auto">
-                      <a href="#"><img src="https://img.icons8.com/color/36/000000/facebook-new.png" /></a>
-                      <a href="#"><img src="https://img.icons8.com/fluency/36/000000/instagram-new.png" /></a>
-                      <a href="#"><img src="https://img.icons8.com/color/36/000000/whatsapp--v1.png" /></a>
-                    </li>
-                  </ul>
                 </div>
                 <div class="donate col-md-6">
-                  <a href="./user/howcanyouhelp.html" class="rounded mx-2 bttn">Donate</a>
+                  <a href="../images/Sanner.jpeg" class="rounded mx-2 bttn">Donate</a>
                 </div>
               </div>
             </div>
@@ -52,11 +53,11 @@ const navbar = `
                                 <a class="nav-link active px-4"  href="./ambulance.html">Ambulance</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active px-4" href="./howcanyouhelp.html">How Can You Help</a>
+                                <a class="nav-link active px-4" href="./howcanyouhelp.html">Support Our Work</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active px-4" href="./updates.html">Updates</a>
-                            </li>
+              <a class="nav-link active px-4" href="../user/updates.html">Updates</a>
+            </li>
                             <li class="nav-item">
                                 <a class="nav-link active px-4" href="https://www.franklywearing.com/creator/cap-mumbai" target="_blank">Merchandise</a>
                             </li>
@@ -74,6 +75,7 @@ document.querySelector(".Nav").innerHTML = navbar
 
 
 
+
 // script Footer Automation
 const Footer = `
 <div class="container py-4">
@@ -81,12 +83,8 @@ const Footer = `
                     <div class="col-lg-3 col-md-6">
                         <h5 class="h1 text-white">Contact Us</h5><br>
                         <ul class="list-unstyled">
-                            <p class="small  text-white mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
-                            <li class="d-flex mx-auto">
-                                <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
-                                <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
-                                <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
-                                </li><br><br>
+                            <p class="small  text-white mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://github.com/Swarup-hash/CAP-Website">Swarup_Hash</a></p> <br>
+                            <br><br>
                                 <a href="#topAgain" style="text-decoration: none;" class="rounded float-start btt">Back to top</a>
                         </ul>
                     </div>
@@ -99,7 +97,7 @@ const Footer = `
                             </li>
                             <li>
                                 <a href="# " style="word-wrap: break-word;">
-                                    <b style="color: white;">Email: </b> mailto:capfoundationmumbai@gmail.com</a>
+                                    <b style="color: white;">Email: </b> capfoundationmumbai@gmail.com</a>
                             </li>
                             <li>
                                 <a href="https://api.whatsapp.com/send?phone=9757439100">
@@ -186,5 +184,30 @@ AmreadMoreContainer.addEventListener('click',event=>{
     current.textContent= current.textContent.includes('Read More')?
     "Read Less...":"Read More"  
 })
+
+
+
+(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
 
 

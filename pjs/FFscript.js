@@ -13,6 +13,9 @@ const fNav=`
 <div class="text-center">
   <h1 class="title word-break"><strong>Citizen for Animal Protection</strong></h1>
 </div>
+<div class="donate" >
+      <a href="../images/Sanner.jpeg" class="rounded mx-2 bttn">Donate</a>
+    </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90b7c7;">
 
@@ -24,7 +27,7 @@ const fNav=`
               <li class="nav-item">
                   <a class="nav-link active px-4" aria-current="page" href="./homeFarm.html">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item"> 
                   <a class="nav-link active px-4" aria-current="page" href="./aboutFarm.html">About</a>
               </li>
               <li class="nav-item">
@@ -43,7 +46,7 @@ const fNav=`
           </ul>
 
       </div>
- 
+      
 </nav>
 <br>
 `
@@ -58,11 +61,7 @@ const fFooter=`
         <h5 class="h1 text-white">Contact Us</h5><br>
         <ul class="list-unstyled">
             <p class=" mb-0 text-white">&copy; Copyrights. All rights reserved. <a class="text-primary " href="https://my.tapni.co/v3nm ">V3NM</a></p> <br>
-            <li class="d-flex mx-auto">
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
-                <a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
-                <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
-            </li><br><br>
+            <br><br>
             <a href="#topAgain" style="text-decoration: none;" class="rounded float-start btt">Back to top</a>
         </ul>
     </div>

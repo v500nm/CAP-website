@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    font-family: sans-serif;
+}
 #loading{
     position: fixed;
     width: 100%;
@@ -22,6 +25,23 @@ background-color: white;
 a:hover {
     text-decoration: underline;
 }
+/* .nav-item a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #f13f1b;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+ .nav-item a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } */
 
 header {
     width: 100%;
@@ -179,12 +199,12 @@ footer p {
 }
 
 .topRow {
-    background-color: aliceblue;
+    background: linear-gradient(aliceblue, #8cafc1f0) ;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    height: 8rem;
+    height: 6rem;
 }
 
 .alignleft {
@@ -216,6 +236,7 @@ footer p {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    z-index: 2;
   }
   
   .icon-bar a {
@@ -232,12 +253,12 @@ footer p {
   }
   
   .facebook {
-    background: linear-gradient(#3B5998, #1b7dd874);
+    background: linear-gradient(#3B5998, #1b7dd8da);
     color: white;
   }
   
   .instagram {
-    background: linear-gradient(#d52fffc5, #d21bd88f) ;
+    background: linear-gradient(#d52fffc5, #ff990091) ;
     color: white;
   }
   
@@ -246,7 +267,123 @@ footer p {
     color: white;
   }
   
+  .twitter {
+    background: linear-gradient(#7c9bdd, #98c1e6ee);
+    color: white;
+  }
+
   .content {
     margin-left: 75px;
     font-size: 30px;
+  }
+
+
+  /* Update grid */
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+  /* Blog */
+
+  .adjust{
+    font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  }
+
+  /* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  video {
+    width: 100%;
+height: 600px;
   }

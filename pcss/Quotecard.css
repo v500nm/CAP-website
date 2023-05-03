@@ -116,6 +116,14 @@ a, a:hover {
 .postcard .postcard__tagbox .tag__item:hover {
 	background: rgba(83, 83, 83, 0.8);
 }
+.tag__item button{
+	border: none;
+	background-color: transparent;
+}
+.tag__item button:hover{
+	color: white;
+}
+
 .postcard:before {
    content: "";
    position: absolute;

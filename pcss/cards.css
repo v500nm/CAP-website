@@ -68,7 +68,7 @@
 }
 .post-slide .post-title a{
     margin-top: 10px;
-    font-size:20px;
+    font-size: 14px;
     font-weight:bold;
     color:#333;
     display: inline-block;
@@ -118,3 +118,14 @@
         padding: 0px 15px 25px 15px;
     }
 }
+
+
+/* SupportersLogo */
+.SupportersLogo .post-content{
+    background-color: transparent;
+}
+.SupportersLogo img{
+    background-color: transparent;
+    border-radius: 55%;
+}
+/* SupportersLogo */

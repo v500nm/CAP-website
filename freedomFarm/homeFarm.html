@@ -13,90 +13,97 @@
     <link rel="stylesheet" href="../pcss/main.css">
     <link rel="stylesheet" href="font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
-    <script src="../pjs/carousal.js" defer></script>
-    <script src="../pjs/FFscript.js" defer></script>
-    <script src="../pjs/farmcarousal.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
- 
+
+
 </head>
 
 <body onload="preLoad()">
     <div id="loading"></div>
     <header class="fNav" id="topAgain">
-        
+
     </header>
-    <hr>
-    <main class="container">
-     
-        <!-- carousel -->
-    <div id="topCarousal" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="5" aria-label="Slide 0"></button>
-        </div>
-        <div class="carousel-inner d-block mx-auto" style="width: 75rem;height: 25rem;">
-            <div class="carousel-item active text-center">
+
+    <div class="container-fluid">
+        <div class="container">
+
+          <!--carousal-->
+
+          <div id="topCarousal" class="carousel slide" data-bs-ride="true" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#topCarousal" data-bs-slide-to="5" aria-label="Slide 0"></button>
+            </div>
+
+            <div class="carousel-inner w-100 d-block mx-auto">
+
+              <div class="carousel-item active text-center">
                 <img src="../images/Carousal1.jpg" id="topCarousal" class="rounded">
-            </div>
-            <div class="carousel-item text-center">
-                <img src="../images/Carousal2.jpg" id="topCarousal" class="rounded">
-            </div>
-            <div class="carousel-item text-center">
-                <img src="../images/How can you help.JPG" id="topCarousal" class="rounded">
-            </div>
-            <div class="carousel-item text-center">
-                <img src="../images/Carousal4.jpg" id="topCarousal" class="rounded">
-            </div>
-            <div class="carousel-item text-center">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="../images/Shelter (2).JPG" id="topCarousal" class="rounded">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="../images/Education.JPG" id="topCarousal" class="rounded">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="../images/Team.jpg" id="topCarousal" class="rounded">
+              </div>
+              <div class="carousel-item text-center">
                 <img src="../images/Carousal5.JPG" id="topCarousal" class="rounded">
-            </div>
-            <div class="carousel-item text-center">
+              </div>
+              <div class="carousel-item text-center">
                 <img src="../images/Carousal6.JPG" id="topCarousal" class="rounded">
+              </div>
             </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#topCarousal" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#topCarousal" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#topCarousal" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#topCarousal" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-    </div>
-    <hr>
-    <div class="about">
-        <div class="aboutheader" >
-            <h3 style="text-align: center;"><strong>Freedom Farm</strong></h3>
-            <br>
-            <article class="postcard light blue">
-                <a class="postcard__img_link" href="#">
-                    <img class="postcard__img" src="../images/CAPlogo.png" alt="Image Title" />
-                </a>
-                <div class="postcard__text t-dark">
-                    <h1 class="postcard__title red text-black"><a href="#"><strong>About us</strong></a></h1>
-                  
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt text-black">Freedom Farm is a humble abode being built by Citizens for Animal Protection Foundation for all  kinds of animals. 
-                        It is located on the outskirts of Thane City, near Waghbil Gaon. 
-                        Our goal is to create a self-sustaining shelter where we plan to create a structure which could help us  generate all the basic resources within. 
-                        We are working towards creating a sustainable structure in collaboration with an organization called  ‘MEE’ from the environment perceptive. 
+        <br>
+        <hr>
+
+        <div class="about">
+            <div class="aboutheader">
+                <h3 style="text-align: center;"><strong>Freedom Farm</strong></h3>
+                <br>
+                <article class="postcard light blue">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="../images/CAPlogo.png" alt="Image Title" />
+                    </a>
+                    <div class="postcard__text t-dark">
+                        <h1 class="postcard__title red text-black"><a href="#"><strong>About us</strong></a></h1>
+
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt text-black">Freedom Farm is a humble abode being built by
+                            Citizens for Animal Protection Foundation for all kinds of animals.
+                            It is located on the outskirts of Thane City, near Waghbil Gaon.
+                            Our goal is to create a self-sustaining shelter where we plan to create a structure which
+                            could help us generate all the basic resources within.
+                            We are working towards creating a sustainable structure in collaboration with an
+                            organization called ‘MEE’ from the environment perceptive.
                         </div>
                         <ul class="postcard__tagbox">
-                        
+
                             <li class="tag__item play blue  text-black">
-                                <a href="./aboutFarm.html">Learn More...</a>
+                                <a href="./aboutFarm.html"><button>Learn More...</button></a>
                             </li>
                         </ul>
-                  
-                </div>
-                </div>
+
+                    </div>
+            </div>
             </article>
             <article class="postcard light blue">
                 <a class="postcard__img_link" href="#">
@@ -104,17 +111,23 @@
                 </a>
                 <div class="postcard__text t-dark">
                     <h1 class="postcard__title green text-black"><a href="#"><strong>Plan A Visit</strong></a></h1>
-                   
+
                     <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt  text-black">Through the Freedom Farm, we aim to reach and help out to as many animals as possible once the  complete structure is built. 
-                        There would be an in-house vet who would be attending to all our animals at the Shelter. We plan to create a structure that could potentially house about 100-150 animals at a time. We wish to create a structure that not only helps us take care of animals but is also sustainable to the  environment. 
-                        In terms of the Educational aspect, we would be conducting interactive sessions, workshops and field  trips for different schools and colleges. Our ultimate aim is to raise awareness and spread the  compassion towards animals. 
-                        
-                      </div>
+                    <div class="postcard__preview-txt  text-black">Through the Freedom Farm, we aim to reach and help
+                        out to as many animals as possible once the complete structure is built.
+                        There would be an in-house vet who would be attending to all our animals at the Shelter. We plan
+                        to create a structure that could potentially house about 100-150 animals at a time. We wish to
+                        create a structure that not only helps us take care of animals but is also sustainable to the
+                        environment.
+                        In terms of the Educational aspect, we would be conducting interactive sessions, workshops and
+                        field trips for different schools and colleges. Our ultimate aim is to raise awareness and
+                        spread the compassion towards animals.
+
+                    </div>
                     <ul class="postcard__tagbox">
-                        
+
                         <li class="tag__item play blue  text-black">
-                            <a href="./planFarm.html">Learn More...</a>
+                            <a href="./planFarm.html"><button>Learn More...</button></a>
                         </li>
                     </ul>
                 </div>
@@ -125,16 +138,20 @@
                 </a>
                 <div class="postcard__text t-dark">
                     <h1 class="postcard__title green text-black"><a href="#"><strong>Event</strong></a></h1>
-                   
+
                     <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt  text-black">Freedom Farm is a humble abode being built by Citizens for Animal Protection Foundation for all  kinds of animals. It is located on the outskirts of Thane City, near Waghbil Gaon. 
-                      Our goal is to create a self-sustaining shelter where we plan to create a structure which could help us  generate all the basic resources within. 
-                      We are working towards creating a sustainable structure in collaboration with an organization called  ‘MEE’ from the environment perceptive. 
-                      </div>
+                    <div class="postcard__preview-txt  text-black">Freedom Farm is a humble abode being built by
+                        Citizens for Animal Protection Foundation for all kinds of animals. It is located on the
+                        outskirts of Thane City, near Waghbil Gaon.
+                        Our goal is to create a self-sustaining shelter where we plan to create a structure which could
+                        help us generate all the basic resources within.
+                        We are working towards creating a sustainable structure in collaboration with an organization
+                        called ‘MEE’ from the environment perceptive.
+                    </div>
                     <ul class="postcard__tagbox">
-                        
+
                         <li class="tag__item play blue  text-black">
-                            <a href="./eventFarm.html">Learn More...</a>
+                            <a href="./eventFarm.html"><button>Learn More...</button></a>
                         </li>
                     </ul>
                 </div>
@@ -143,12 +160,19 @@
         <br>
     </main>
     <br>
-     <!--footer-->
-     <footer class="py-4 flex-shrink-0 fFooter" id="contact">
-        
+    <!--footer-->
+    <footer class="py-4 flex-shrink-0 fFooter" id="contact">
+
     </footer>
 
-    
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="../pjs/carousal.js" defer></script>
+    <script src="../pjs/FFscript.js" defer></script>
+    <script src="../pjs/farmcarousal.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
 </body>
 
 </html>
