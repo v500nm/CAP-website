@@ -1,8 +1,8 @@
 //loader
-const preLoader=document.querySelector("#loading");
-function preLoad(){
-    preLoader.style.display='none';
-}
+// const preLoader=document.querySelector("#loading");
+// function preLoad(){
+//     preLoader.style.display='none';
+// }
 
 //Social media links
 const SocialMedia = `<div class="icon-bar">
