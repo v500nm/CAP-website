@@ -30,8 +30,7 @@ const navbar = `
                 </div>
               </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90b7c7;">
-             
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #90b7c7;">       
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -72,9 +71,6 @@ const navbar = `
             <br>
 `
 document.querySelector(".Nav").innerHTML = navbar
-
-
-
 
 // script Footer Automation
 const Footer = `
@@ -182,8 +178,6 @@ AmreadMoreContainer.addEventListener('click',event=>{
     current.textContent= current.textContent.includes('Read More')?
     "Read Less...":"Read More"  
 })
-
-
 
 (document).ready(function(){
     $('.customer-logos').slick({
